@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: Topsis-Naman-101903304
-Version: 1.0.1
+Version: 1.0.2
 Summary: A Python package implementing TOPSIS technique.
-Home-page: UNKNOWN
+Home-page: https://github.com/NamanJain1902/Topsis-Naman-101903304
 Author: Naman Jain
 Author-email: 1902ben10@gmail.com
 License: MIT
@@ -82,6 +82,7 @@ Description: # <div align=center> TOPSIS implementation in Python
         Usage:
             topsis = TOPSIS(filepath, impacts, weights, output)
             topsis.df
+        """
         ```
         
         <br>
