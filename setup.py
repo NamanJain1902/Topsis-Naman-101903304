@@ -7,7 +7,7 @@ def readme():
 
 setup(
     name="Topsis-Naman-101903304",
-    version="1.0.1",
+    version="1.0.2",
     description="A Python package implementing TOPSIS technique.",
     long_description=readme(),
     long_description_content_type="text/markdown",
@@ -25,6 +25,7 @@ setup(
         "Programming Language :: Python :: 3.10",
     ],
     packages=["Topsis-Naman-101903304"],
+    py_modules = ["topsis"],
     include_package_data=True,
     install_requires=['pandas'],
     entry_points={
