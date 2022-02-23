@@ -28,9 +28,4 @@ setup(
     py_modules = ["topsis"],
     include_package_data=True,
     install_requires=['pandas'],
-    entry_points={
-        "console_scripts": [
-            "topsis=topsis.topsis:main",
-        ]
-    },
 )
