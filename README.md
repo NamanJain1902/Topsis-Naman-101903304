@@ -25,13 +25,13 @@ pip install Topsis-Naman-101903304
 
 ### In Terminal
 ```
-$ topsis data.csv "1,1,1,1,2" "+,+,-,+,+" output.csv
+$ python3 -m topsis_package.topsis input.csv "1,1,1,1,2" "+,+,-,+,+" output.csv
 ```
 <br>
 
 ### In Python:
 ```python
-from topsis import TOPSIS
+from topsis_package.topsis import *
 
 filepath = "input.csv"
 weights  = "1,1,1,1,2"

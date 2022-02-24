@@ -103,14 +103,14 @@ class TOPSIS:
         self.storeCSV(self.output)
 
 
-class WrongNumberOfArgumentsNeedExactlyFour(ValueError):
+class WrongNumberOfArgumentsNeedExactlyFive(ValueError):
     pass
 
 
 def main():
 
     if len(sys.argv) != 5:
-        raise WrongNumberOfArgumentsNeedExactlyFour
+        raise WrongNumberOfArgumentsNeedExactlyFive
 
     filepath = sys.argv[1]
     weights  = list(map(int, sys.argv[2].split(",")))
