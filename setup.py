@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 def readme():
     with open('README.md') as f:
@@ -24,8 +24,9 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
     ],
-    packages=["Topsis-Naman-101903304"],
+    package_dir={"": "src"},
+    packages=find_packages(where="src"),
     py_modules = ["topsis"],
     include_package_data=True,
-    install_requires=['pandas'],
+    install_requires=['pandas'],    
 )
